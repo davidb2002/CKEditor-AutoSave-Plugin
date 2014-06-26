@@ -45,7 +45,7 @@
         });
 
         jQuery(saveDetectionSelectors).click(function() {
-            RemoveStorage(autoSaveKey);
+            SaveData(autoSaveKey, editorInstance);
         });
 
         editorInstance.on('change', startTimer);
